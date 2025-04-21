@@ -34,4 +34,31 @@ Behave
 
 behave-django
 
+###postman
+You can test the app using Postman:
+
+Add a book
+POST http://127.0.0.1:8000/books
+
+Body type: raw (json)
+
+       { 
+        "title": "New book",
+        "author": "amr",
+        "published_date": "2000-04-08",
+        "isbn": "123",
+        "available": true
+       }
+
+Update a book
+put http://127.0.0.1:8000/books/<id>/
+(Same fields as above)
+
+Delete a book
+Delete http://127.0.0.1:8000/books/<id>/
+
+Books list
+GET http://127.0.0.1:8000/books
+
+
 
