@@ -38,7 +38,7 @@ behave-django
 You can test the app using Postman:
 
 Add a book
-POST http://127.0.0.1:8000/books
+POST http://127.0.0.1:8000/books/
 
 Body type: raw (json)
 
