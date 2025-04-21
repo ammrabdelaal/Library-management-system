@@ -14,6 +14,7 @@ A simple Django web application for managing a library using **Behavior-Driven D
   
 ---
 📂 How to run
+
 1-Clone the repo
 
 2-Create a virtual environment
@@ -25,7 +26,7 @@ A simple Django web application for managing a library using **Behavior-Driven D
 5-Run tests
 
  you can run the project using this command : python manage.py runserver 
- ---
+ 
  
 ## 🧪 Behavior-Driven Development (BDD)
 
