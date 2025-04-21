@@ -12,9 +12,21 @@ A simple Django web application for managing a library using **Behavior-Driven D
 - ✅ Store book data (title, author, published date, ISBN, available status)  
 - ✅ Test all features using BDD scenarios
   
-  you can run the project using this command : python manage.py runserver 
 ---
+📂 How to run
+1-Clone the repo
 
+2-Create a virtual environment
+
+3-Install dependencies
+
+4-Run migrations
+
+5-Run tests
+
+ you can run the project using this command : python manage.py runserver 
+ ---
+ 
 ## 🧪 Behavior-Driven Development (BDD)
 
 This project uses [Behave](https://github.com/behave/behave) with `behave-django` to write and run test scenarios using **Gherkin syntax**.
