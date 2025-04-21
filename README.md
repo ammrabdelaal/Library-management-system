@@ -11,7 +11,8 @@ A simple Django web application for managing a library using **Behavior-Driven D
 - ✅ Delete a book  
 - ✅ Store book data (title, author, published date, ISBN, available status)  
 - ✅ Test all features using BDD scenarios
-
+  
+  you can run the project using this command : python manage.py runserver 
 ---
 
 ## 🧪 Behavior-Driven Development (BDD)
@@ -22,8 +23,7 @@ You can run the BDD tests using:
 python manage.py behave --no-capture
 
 
-
-Tech stack:
+## Tech stack:
 Python 3.x
 
 Django
